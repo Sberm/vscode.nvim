@@ -193,11 +193,11 @@ theme.set_highlights = function(opts)
     hl(0, '@decorator', { link = 'Identifier' })
 
     -- Markdown
-    hl(0, 'markdownBold', { fg = isDark and c.vscBlue or c.vscYellowOrange, bold = true })
+    hl(0, 'markdownBold', { fg = isDark and c.vscBlue or c.vscBlue, bold = true })
     hl(0, 'markdownCode', { fg = c.vscOrange, bg = 'NONE' })
     hl(0, 'markdownRule', { fg = isDark and c.vscBlue or c.vscYellowOrange, bold = true })
     hl(0, 'markdownCodeDelimiter', { fg = c.vscFront, bg = 'NONE' })
-    hl(0, 'markdownHeadingDelimiter', { fg = isDark and c.vscBlue or c.vscYellowOrange, bg = 'NONE' })
+    hl(0, 'markdownHeadingDelimiter', { fg = isDark and c.vscBlue or c.vscBlue, bg = 'NONE' })
     hl(0, 'markdownFootnote', { fg = isDark and c.vscOrange or c.vscYellowOrange, bg = 'NONE' })
     hl(0, 'markdownFootnoteDefinition', { fg = isDark and c.vscOrange or c.vscYellowOrange })
     hl(0, 'markdownUrl', { fg = c.vscFront, bg = 'NONE', underline = true })
