@@ -19,6 +19,8 @@ colors.get_colors = function()
 
             vscPopupFront = '#BBBBBB',
             vscPopupBack = '#202020',
+            vscCursorLineNrFront = '#2E9DFF',
+            vscCursorLineBack = '#F0F8FF',
             vscPopupHighlightBlue = '#04395E',
             vscPopupHighlightGray = '#343B41',
 
@@ -99,6 +101,8 @@ colors.get_colors = function()
 
             vscPopupFront = '#000000',
             vscPopupBack = '#F8F8F8',
+            vscCursorLineNrFront = '#2E9DFF',
+            vscCursorLineBack = '#F0F8FF',
             vscPopupHighlightBlue = '#0064c1',
             vscPopupHighlightGray = '#767676',
 
