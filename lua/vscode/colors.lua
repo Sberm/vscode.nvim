@@ -28,7 +28,7 @@ colors.get_colors = function()
             vscSplitDark = '#444444',
             vscSplitThumb = '#424242',
 
-            vscCursorInsert = '#C1EBAE',
+            vscCursorInsert = '#A7E084',
             vscCursorDarkDark = '#222222',
             vscCursorDark = '#51504F',
             vscCursorLight = '#AEAFAD',
@@ -111,7 +111,7 @@ colors.get_colors = function()
             vscSplitDark = '#DDDDDD',
             vscSplitThumb = '#DFDFDF',
 
-            vscCursorInsert = '#C1EBAE',
+            vscCursorInsert = '#A7E084',
             vscCursorDarkDark = '#E5E5E5',
             vscCursorDark = '#6F6F6F',
             vscCursorLight = '#B5B5B5',
