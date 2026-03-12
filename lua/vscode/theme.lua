@@ -1,4 +1,5 @@
 local hl = vim.api.nvim_set_hl
+local autocmd = vim.api.nvim_create_autocmd
 local theme = {}
 
 theme.set_highlights = function(opts)
@@ -94,6 +95,20 @@ theme.set_highlights = function(opts)
     hl(0, 'WinBar', { fg = c.vscFront, bg = c.vscBack, bold = true })
     hl(0, 'WinBarNc', { fg = c.vscFront, bg = c.vscBack })
     hl(0, 'QuickFixLine', { bold = true })
+
+    -- Change cursor color in insert mode
+    autocmd({'InsertEnter'}, {
+        pattern = {'*'},
+        callback = function(ev)
+            vim.api.nvim_set_hl(0, 'Cursor', {bg=c.vscCursorInsert})
+        end
+    })
+    autocmd({'InsertLeave'}, {
+        pattern = {'*'},
+        callback = function(ev)
+            vim.api.nvim_set_hl(0, 'Cursor', {bg=c.vscCursorLight})
+        end
+    })
 
     -- Treesitter
     hl(0, '@error', { fg = c.vscRed, bg = 'NONE' }) -- Legacy
