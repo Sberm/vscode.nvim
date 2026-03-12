@@ -114,7 +114,7 @@ colors.get_colors = function()
             vscCursorInsert = '#C1EBAE',
             vscCursorDarkDark = '#E5E5E5',
             vscCursorDark = '#6F6F6F',
-            vscCursorLight = '#767676',
+            vscCursorLight = '#B5B5B5',
             vscSelection = '#ADD6FF',
             vscLineNumber = '#098658',
 
